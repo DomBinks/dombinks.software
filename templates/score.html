@@ -1,0 +1,17 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>British Food Test</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <h1>British Food Test</h1>
+    <h2>Your score is:</h2>
+    <h2>{{ score }}/50</h2>
+    <h3>{{ comment }}</h3>
+    <form action="{{ url_for('british_food_test') }}">
+      <input type="submit" value="Return"> 
+    </form>
+ </body>
+</html>

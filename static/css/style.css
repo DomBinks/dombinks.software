@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  text-align: left;
+}
+
+body {
+  font-family: Arial, sans-serif; 
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+ol {
+  padding-left: 0;
+  list-style-position: inside;
+  list-style-type: decimal-leading-zero;
+}
+

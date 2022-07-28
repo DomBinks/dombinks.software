@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Last Michael Reeves Upload</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <h1>Latest Michael Reeves Video</h1> 
+    <h2>Uploaded {{ days }} days ago ({{ date }})</h2>
+    <h3>{{ title }}</h2>
+    <div class="main">
+      <iframe src="https://www.youtube.com/embed/{{ id }}" width="852" height="480" allowfullscreen>
+      </iframe>
+    </div>
+  </body>
+</html>
