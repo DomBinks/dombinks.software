@@ -1,0 +1,69 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>British Food Test</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <h1>British Food Test</h1>
+    <p>How much British cuisine have you tasted?</p>
+    <div class="main">
+      <form method="POST" action="{{ url_for('calc_score') }}">
+        <ol>
+          <li><input type="checkbox" name="1">Full English Breakfast</li>
+          <li><input type="checkbox" name="2">Fish and Chips</li>
+          <li><input type="checkbox" name="3">Roast Dinner</li>
+          <li><input type="checkbox" name="4">Bangers and Mash</li>
+          <li><input type="checkbox" name="5">Chicken Tikka Masala</li>
+          <li><input type="checkbox" name="6">Cottage Pie</li>
+          <li><input type="checkbox" name="7">Gamon Stake, Egg, and Chips</li>
+          <li><input type="checkbox" name="8">Toad in the hole</li>
+          <li><input type="checkbox" name="9">Beef Wellington</li>
+          <li><input type="checkbox" name="10">Ploughman's</li>
+          <li><input type="checkbox" name="11">Bubble and Squeak</li>
+          <li><input type="checkbox" name="12">Cauliflower Cheese</li>
+          <li><input type="checkbox" name="13">Lancashire Hotpot</li>
+          <li><input type="checkbox" name="14">Cumberland Sausage</li>
+          <li><input type="checkbox" name="15">Faggots</li>
+          <li><input type="checkbox" name="16">Haggis</li>
+          <li><input type="checkbox" name="17">Jellied Eels</li>
+          <li><input type="checkbox" name="18">Welsh Cawl</li>
+          <li><input type="checkbox" name="19">Apple Crumble</li>
+          <li><input type="checkbox" name="20">Sticky Toffee Pudding</li>
+          <li><input type="checkbox" name="21">Bread and Butter Pudding</li>
+          <li><input type="checkbox" name="22">Spotted Dick</li>
+          <li><input type="checkbox" name="23">Victoria Sponge Cake</li>
+          <li><input type="checkbox" name="24">Scones</li>
+          <li><input type="checkbox" name="25">Strawberries and Cream</li>
+          <li><input type="checkbox" name="26">Bakewell Tart</li>
+          <li><input type="checkbox" name="27">Trifle</li>
+          <li><input type="checkbox" name="28">Eton Mess</li>
+          <li><input type="checkbox" name="29">Battenberg Cake</li>
+          <li><input type="checkbox" name="30">Eccles Cake</li>
+          <li><input type="checkbox" name="31">Mince Pie</li>
+          <li><input type="checkbox" name="32">Welsh Cakes</li>
+          <li><input type="checkbox" name="33">Crumpets</li>
+          <li><input type="checkbox" name="34">Beans on Toast</li>
+          <li><input type="checkbox" name="35">Pigs in Blankets</li>
+          <li><input type="checkbox" name="36">Black Pudding</li>
+          <li><input type="checkbox" name="37">Cornish Pasty</li>
+          <li><input type="checkbox" name="38">Steak and Kidney Pie</li>
+          <li><input type="checkbox" name="39">Pork Pie</li>
+          <li><input type="checkbox" name="40">Sausage Roll</li>
+          <li><input type="checkbox" name="41">Scotch Eggs</li>
+          <li><input type="checkbox" name="42">Chip Butty</li>
+          <li><input type="checkbox" name="43">Bacon Sandwich</li>
+          <li><input type="checkbox" name="44">Cadbury Chocolate</li>
+          <li><input type="checkbox" name="45">Walkers Crisps</li>
+          <li><input type="checkbox" name="46">Digestive Biscuit</li>
+          <li><input type="checkbox" name="47">Pork Scratchings</li>
+          <li><input type="checkbox" name="48">Pot Noodle</li>
+          <li><input type="checkbox" name="49">Meal Deal</li>
+          <li><input type="checkbox" name="50">Marmite</li>
+        </ol>
+        <input type="submit" value="Calculate my score">
+      </form> 
+    </div>
+  </body>
+</html>
